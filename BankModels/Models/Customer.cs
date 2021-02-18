@@ -18,6 +18,5 @@ namespace BankModels.Models
         [Required]
         [MaxLength(20)]
         public string  Password { get; set; }
-       
     }
 }

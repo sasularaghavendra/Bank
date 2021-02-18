@@ -10,7 +10,7 @@ namespace XUnitTest
 {
     public class CustomerTests
     {
-       
+      
         private readonly CustomerController customerController;
         public static DbContextOptions<BankCustomerContext> dbContextOptions { get; }
         public static string connectionString = "Server=DESKTOP-QRCLU6I;Database=BankCustomer;Trusted_Connection=True;";

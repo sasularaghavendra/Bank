@@ -6,7 +6,7 @@ namespace BankModels.Models
 {
     public class Transaction
     {
-        public int CustomerId { get; set; }
+        public int CustomerId { get; set; } 
         public long Balance { get; set; }
     }
 }

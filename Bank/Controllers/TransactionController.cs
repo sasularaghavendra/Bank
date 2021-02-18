@@ -15,7 +15,6 @@ namespace Bank.Controllers
     public class TransactionController : ControllerBase
     {
         private readonly BankCustomerContext _db;
-
         public TransactionController(BankCustomerContext db)
         {
             _db = db;

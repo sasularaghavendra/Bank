@@ -16,7 +16,6 @@ namespace BankModels.Models
         [Required]
         [MaxLength(10)]
         public long AccountNumber { get; set; }
-        
         public double Balance { get; set; }
     }
 }
