@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace Bank.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]")] 
     public class TransactionController : ControllerBase
     {
         private readonly BankCustomerContext _db;

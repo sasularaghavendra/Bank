@@ -10,3 +10,4 @@ namespace BankModels.Models
         public long Balance { get; set; }
     }
 }
+ 

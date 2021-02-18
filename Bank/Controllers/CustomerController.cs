@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace Bank.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]")] 
     public class CustomerController : ControllerBase
     {
         private readonly BankCustomerContext _db;

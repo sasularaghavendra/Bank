@@ -11,7 +11,7 @@ namespace BankModels.Models
         public int CustomerId { get; set; }
         [Required]
         [MaxLength(20)]
-        public string Name { get; set; }
+        public string Name { get; set; } 
         [Required]
         [MaxLength(20)]
         public string Email { get; set; }
